@@ -1,0 +1,73 @@
+/* Reset default margins, paddings and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the main container vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Main container styling */
+.container {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* Heading style */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Generate button style */
+button {
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff5e62;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+  background: #ff5e62;
+  color: #fff;
+}
+
+/* Container for the color palette */
+.palette {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+/* Individual color box style */
+.color-box {
+  width: 60px;
+  height: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
